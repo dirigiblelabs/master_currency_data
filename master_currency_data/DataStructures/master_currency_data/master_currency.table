@@ -3,11 +3,20 @@
   "columns":
     [
       {
+        "name":"CURRENCY_ID",
+        "type":"INTEGER",
+        "length":"0",
+        "notNull":"true",
+        "primaryKey":"true",
+        "defaultValue":""
+      }
+      ,
+      {
         "name":"CURRENCY_CODE",
         "type":"CHAR",
         "length":"3",
         "notNull":"true",
-        "primaryKey":"true",
+        "primaryKey":"false",
         "defaultValue":""
       }
       ,
